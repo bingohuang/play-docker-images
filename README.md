@@ -4,10 +4,10 @@
 ## 前言
 镜像（Image）是 Docker 最突出的创新（可能都没有之一），软件交付变革所在。Docker 镜像的重要性不言而喻。
 
-网易蜂巢为了让大家能更有趣味、更快速地了解 Docker 镜像，特推出《玩转Docker镜像》系列，以好玩实用的 Docker 镜像为核心，结合源代码、Dockerfile、文章、视频等形式，让更多的人了解 Docker，玩转 Docker 镜像。
+网易蜂巢为了让大家能更有趣味、更快速地了解 Docker 镜像，特推出《玩转Docker镜像》系列，以好玩实用的 Docker 镜像为核心，结合源码、Dockerfile、镜像、文章、视频等形式，让更多的人了解 Docker，玩转 Docker 镜像。
 
 ## 目录
-1. 第一期：[童年的马里奥](docker-mario/README.md)
+1. 第一期：[童年的马里奥](stage-1/README.md)
 
 ## 结构
 每期结构大致如下：
