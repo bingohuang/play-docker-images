@@ -1,4 +1,4 @@
-第一期 - 童年的超级玛丽 (Stage 1 - Childhood Mario)
+第一期 - 童年的马里奥 (Stage 1 - Childhood Mario)
 ===
 ![docker-mario](http://nos.126.net/comb/docker-mario-game.jpg)
 
