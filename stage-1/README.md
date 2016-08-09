@@ -91,11 +91,11 @@ aadc6919961e        hub.c.163.com/bingohuang/docker-mario:1.0   "nginx -g 'daemo
 打开浏览器，访问 http://127.0.0.1:1989/
 ```
 #### 蜂巢运行
-Docker镜像能做到一次构建，到处运行，所以镜像是核心。
+Docker镜像能做到一次构建，到处运行，所以镜像是docker的核心。
 
-首先打开 [蜂巢镜像中心](https://c.163.com/hub#/m/home/)，如果你在上一步做了 `镜像-上传镜像` 到蜂巢平台，那将在你的[私有仓库](https://c.163.com/dashboard#/m/mirrorRepo/)中看到你刚刚上传的镜像。
+首先打开 [蜂巢镜像中心](https://c.163.com/hub#/m/home/)，如果你在上一步做了 `上传镜像` 到蜂巢平台的操作，那你将在[私有仓库](https://c.163.com/dashboard#/m/mirrorRepo/)中看到你刚刚上传的镜像。
 
-如果你想用我们打包上传好的镜像，只需要在镜像中心的搜索框页面，输入 `docker-mario`，结果中的 `bingohuang/docker-mario` 就是我们上传好的镜像了。 点击`收藏`，之后就可以在 [容器管理](https://c.163.com/dashboard#/m/container/) 页面创建该镜像的容器。
+如果你想用我们打包上传好的镜像，只需要在镜像中心的搜索框页面，输入 `docker-mario`，结果中的 `bingohuang/docker-mario` 就是我们上传好的镜像了。 点击进去，之后点击`收藏`，继而就可以在 [容器管理](https://c.163.com/dashboard#/m/container/) 页面创建该镜像的容器。
 
 ## 演示
 视频地址：
