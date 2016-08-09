@@ -71,25 +71,26 @@ Email: <蜂巢邮箱> #最新版的Docker无需输入Email
 # 推送到镜像中心
 docker push hub.c.163.com/bingohuang/docker-mario:1.0
 ```
+注：推送本地镜像的详细文档，请参考[蜂巢帮助文档](https://c.163.com/wiki/index.php?title=%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E9%95%9C%E5%83%8F)
 
 ## 容器
 #### 本地运行
 ```
 # 运行
-docker run --name docker-mario -d -p 89:80 hub.c.163.com/bingohuang/docker-mario:1.0
+docker run --name docker-mario -d -p 1989:80 hub.c.163.com/bingohuang/docker-mario:1.0
 
 # 查看
 docker ps
 
 # 访问
-打开浏览器，访问 http://127.0.0.1:89/
+打开浏览器，访问 http://127.0.0.1:1989/
 ```
 #### 蜂巢运行
 Docker镜像能做到一次构建，到处运行，所以镜像是核心。
 
 首先打开 [蜂巢镜像中心](https://c.163.com/hub#/m/home/)，如果你在上一步做了 `镜像-上传镜像` 到蜂巢平台，那将在你的[私有仓库](https://c.163.com/dashboard#/m/mirrorRepo/)中看到你刚刚上传的镜像。
 
-如果你想用我们打包上传好的镜像，只需要在镜像中心的搜索框页面，输入 `docker-mario`，结果中的 `bingohuang/docker-mario` 就是我们上传好的镜像了。 点击`收藏`，之后就可以在`容器管理`页面创建该镜像的容器。
+如果你想用我们打包上传好的镜像，只需要在镜像中心的搜索框页面，输入 `docker-mario`，结果中的 `bingohuang/docker-mario` 就是我们上传好的镜像了。 点击`收藏`，之后就可以在 [容器管理](https://c.163.com/dashboard#/m/container/) 页面创建该镜像的容器。
 
 ## 演示
 视频地址：
