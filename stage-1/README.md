@@ -36,7 +36,7 @@ EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 ```
 #### Dockerfile 解析：
-以下对Dockerfile做逐句解析
+以下对 [Dockerfile](https://docs.docker.com/engine/reference/builder/) 做逐句解析
 
 1. 关键字 `FROM`，选用包含163更新源的Debian镜像，版本7.9
 2. 关键字 `MAINTAINER`，添加作者信息和联系方式（有任何问题或反馈欢迎发邮件沟通）
