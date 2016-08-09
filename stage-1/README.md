@@ -74,13 +74,18 @@ docker push hub.c.163.com/bingohuang/docker-mario:1.0
 注：推送本地镜像的详细文档，请参考[蜂巢帮助文档](https://c.163.com/wiki/index.php?title=%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E9%95%9C%E5%83%8F)
 
 ## 容器
-#### 本地运行
+#### [本地运行](https://docs.docker.com/)
 ```
 # 运行
 docker run --name docker-mario -d -p 1989:80 hub.c.163.com/bingohuang/docker-mario:1.0
 
+aadc6919961e5106c52146463058842b975b7d7ff4ad100c3900ca52231d3468
+
 # 查看
 docker ps
+
+CONTAINER ID        IMAGE                                       COMMAND                  CREATED             STATUS              PORTS                        NAMES
+aadc6919961e        hub.c.163.com/bingohuang/docker-mario:1.0   "nginx -g 'daemon off"   12 seconds ago      Up 11 seconds       22/tcp, 0.0.0.0:1989->80/tcp   docker-mario
 
 # 访问
 打开浏览器，访问 http://127.0.0.1:1989/
