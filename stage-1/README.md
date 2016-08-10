@@ -98,4 +98,4 @@ Docker镜像能做到一次构建，到处运行，所以镜像是docker的核�
 如果你想用我们打包上传好的镜像，只需要在镜像中心的搜索框页面，输入 `docker-mario`，结果中的 `bingohuang/docker-mario` 就是我们上传好的镜像了。 点击进去，之后点击`收藏`，继而就可以在 [容器管理](https://c.163.com/dashboard#/m/container/) 页面创建该镜像的容器。
 
 ## 演示
-视频地址：
+@云课堂 [《玩转 Docker 镜像》](http://study.163.com/course/introduction.htm?courseId=1003188013)
