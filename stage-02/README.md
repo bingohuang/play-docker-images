@@ -101,6 +101,7 @@ $ docker build  -t redis:lab-1  .
 _注：国内网络，更新下载可能会较慢_
 
 **查看大小：**
+
 | Lab |  iamge  | Base       | Lang    | .red[*] |  Size (MB) | &nbsp;&nbsp; Memo               |
 |:---:|:--------|:-----------|:-----:|:---:|---------------:|:--------------------------------|
 |  1 |  redis  |  `ubuntu`  |   C   | dyn |   347.3        | &nbsp;&nbsp; base ubuntu        |
@@ -137,6 +138,7 @@ $ docker build  -t redis:lab-2  .
 ```
 
 **查看大小：**
+
 | Lab |  image  | Base       | Lang    | .red[*] |  Size (MB) | &nbsp;&nbsp; Memo               |
 |:---:|:--------|:-----------|:-----:|:---:|---------------:|:--------------------------------|
 |  01 |  redis  |  `ubuntu`  |   C   | dyn |   347.3        | &nbsp;&nbsp; base ubuntu        |
@@ -183,6 +185,7 @@ $ docker build  -t redis:lab-3  .
 ```
 
 查看大小：
+
 | Lab |  Image  | Base       | Lang    | .red[*] |  Size (MB) | &nbsp;&nbsp; Memo               |
 |:---:|:--------|:-----------|:-----:|:---:|---------------:|:--------------------------------|
 |  01 |  redis  |  `ubuntu`  |   C   | dyn |   347.3        | &nbsp;&nbsp; base ubuntu        |
@@ -218,6 +221,7 @@ $ docker save redis:lab-3 \
 _注： 该工具在 Mac 下并不好使，请在 Linux 下使用_
 
 **对比大小：**
+
 | Lab |  Image  | Base       | PL    | .red[*] |  Size (MB) | &nbsp;&nbsp; Memo               |
 |:---:|:--------|:-----------|:-----:|:---:|---------------:|:--------------------------------|
 |  01 |  redis  |  `ubuntu`  |   C   | dyn |   347.3        | &nbsp;&nbsp; base ubuntu        |
