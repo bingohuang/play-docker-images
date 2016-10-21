@@ -1,4 +1,4 @@
-第二期 - 制作精简镜像(下) (Stage 3 - Make Minimal Image II)
+第三期 - 制作精简镜像(下) (Stage 3 - Make Minimal Image II)
 ===
 ![docker-mario](http://nos.126.net/docker/docker-commands.png)
 
