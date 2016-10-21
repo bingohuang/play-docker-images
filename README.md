@@ -18,6 +18,7 @@
 ## 目录
 1. 第一期：[童年的马里奥](stage-01)
 2. 第二期：[制作精简镜像(上)](stage-02)
+2. 第三期：[制作精简镜像(下)](stage-03)
 
 ## 视频
 @[网易云课堂](http://study.163.com) -《[玩转 Docker 镜像](http://study.163.com/course/courseMain.htm?courseId=1003188013)》
